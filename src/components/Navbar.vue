@@ -9,7 +9,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul id="menu-main-nav" class="navbar-nav nav-fill ml-auto">
+      <ul class="navbar-nav ml-auto mb-2 mb-md-0">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>

@@ -18,3 +18,15 @@ a.navbar-brand {
 li.nav-item a {
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 767px) {
+  div#navbarCollapse {
+    width: 100%;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    background-color: #373f46;
+  }
+}
