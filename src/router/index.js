@@ -7,6 +7,7 @@ import TasksAll from '../views/tasks/TasksAll.vue'
 import TasksCreate from '../views/tasks/TasksCreate.vue'
 import TasksEdit from '../views/tasks/TasksEdit.vue'
 
+// Vue.use(VueRouter) -- can substitute but will need to change import above to "Import VueRouter"
 Vue.use(Router)
 
 // set to true to simulate user being logged in
@@ -86,6 +87,7 @@ const routes = new Router({
     redirect: '/'
   }
 ],
+  // linkActiveClass will make the active class toggle stay on while in the component view (login, register, tasks, home)
   linkActiveClass: 'active',
   mode: 'history',
   base: process.env.BASE_URL
