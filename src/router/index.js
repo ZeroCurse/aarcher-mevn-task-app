@@ -48,6 +48,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
+  linkActiveClass: 'active',
   mode: 'history',
   base: process.env.BASE_URL,
   routes
