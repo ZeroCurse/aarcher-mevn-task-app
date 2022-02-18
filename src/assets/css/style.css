@@ -1,6 +1,6 @@
-/* .hello {
-  padding-top: 5em;
-} */
+* {
+    color: #fff;
+}
 
 .custom-bg-dark {
   background-color: #373f46 !important;
@@ -8,6 +8,7 @@
 
 nav.navbar {
   height: 6rem;
+  margin-bottom: 10em;
 }
 
 a.navbar-brand {
@@ -30,4 +31,17 @@ li.nav-item a {
     padding-bottom: 5px;
     background-color: #373f46;
   }
+}
+
+div#app-container {
+  position: fixed;
+  top: 96px;
+  left: 0;
+  bottom: 96px;
+  width: 100%;
+  /* check this later */
+  height:100%;
+  padding: 2rem;
+  background-color: #1d2733;
+  overflow: auto;
 }
