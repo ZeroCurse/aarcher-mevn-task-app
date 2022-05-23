@@ -1,1 +1,1 @@
-# aarcher-mevn-task-app is a MEVN stack application to manage tasks
+# aarcher-mevn-task-app is a MEVN stack application to manage tasks.
